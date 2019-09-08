@@ -1,12 +1,11 @@
 /* @flow */
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { 
-  View, 
-  Text, 
-  KeyboardAvoidingView, 
-  Platform, 
-  ScrollView 
+import {
+  View,
+  Text,
+  KeyboardAvoidingView,
+  Platform,
+  ScrollView
 } from 'react-native';
 
 import styles from './styles'

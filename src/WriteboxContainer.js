@@ -1,6 +1,6 @@
 /* @flow */
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import {
   View,
   Text,
@@ -16,7 +16,7 @@ const MAGICAL_NUMBER = 30
 const INPUT_HEIGHT = 32
 
 export default class WriteBoxContainer extends Component {
-
+/*
   static propTypes = {
     leftComponent: PropTypes.func,
     onSubmit: PropTypes.func,
@@ -26,7 +26,7 @@ export default class WriteBoxContainer extends Component {
     value: PropTypes.string,
     onFocus: PropTypes.func,
     onBlur: PropTypes.func
-  }
+  }*/
 
   static defaultProps = {
     leftComponent: () =>  <View />,

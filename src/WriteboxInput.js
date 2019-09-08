@@ -1,6 +1,5 @@
 /* @flow */
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import {
   View,
   Text,
@@ -18,6 +17,7 @@ import styles from './styles'
 const INPUT_MAX_HEIGHT = 60
 
 export default class WriteBoxInput extends Component {
+  /*
   static propTypes = {
     onHeightChanged: PropTypes.func,
     onChange: PropTypes.func,
@@ -27,7 +27,7 @@ export default class WriteBoxInput extends Component {
     value: PropTypes.string,
     placeholder: PropTypes.string,
     inputLimit: PropTypes.number
-  }
+  }*/
   static defaultProps = {
     onHeightChanged: () => {},
     onChange: () => {},
