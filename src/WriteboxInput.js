@@ -58,7 +58,7 @@ export default class WriteBoxInput extends Component {
   }
   _onContentSizeChange(event) {
     let update = {
-      height: this._maxInputHeight(event.nativeEvent.contentSize.height)
+    //  height: this._maxInputHeight(event.nativeEvent.contentSize.height)
     }
     this.setState(update)
     this.props.onHeightChanged(update)
